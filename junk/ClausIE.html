@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0180)https://d5gate.ag5.mpi-sb.mpg.de/ClausIEGate/ClausIEGate?inputtext=He+flew+here+and+there+in+the+search+of+water.&processCcAllVerbs=true&processCcNonVerbs=true&type=true&go=Extract -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<title>ClausIE</title>
+<style type="text/css">
+@media screen , paper {
+	body {
+		max-width: 60em;
+	}
+}
+
+body {
+	margin: auto;
+	font-family: "Century Gothic", sans-serif;
+	text-align: justify;
+}
+
+div.head {
+	text-align: center;
+	font-size: 150%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.input {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 1em;
+}
+
+div.language {
+	text-align: right;
+	font-size: 80%;
+	'
+}
+
+span.highlight {
+	color: red;
+}
+
+div.map {
+	clear: both;
+	padding-top: 2em;
+}
+</style>
+</head>
+<body>
+	<div class="head">ClausIE: Clause-Based Open Information Extraction</div>
+	<div class="input">
+		<form method="get">
+		Please enter a single sentence in English:
+			<table>
+				<tbody><tr>
+					<td colspan="2"><textarea name="inputtext" rows="8" cols="83">He flew here and there in the search of water.</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td> <input type="checkbox" name="processCcAllVerbs" value="true" checked="">Process CC in all verbs<br>
+					</td>
+					<td> <input type="checkbox" name="processCcNonVerbs" value="true" checked="">Process CC in non-verbs<br>
+					</td>
+				</tr>
+				<tr>
+					<td> <input type="hidden" name="type" value="true">
+					</td>
+				</tr>
+			</tbody></table>
+			<input type="submit" value="Extract" name="go">
+			<input type="submit" value="Clear" name="clear">
+		</form>
+	</div>
+	<a href="http://www.mpi-inf.mpg.de/departments/d5/software/clausie/">Back to ClausIE homepage</a>
+	<div class="results">
+		<hr>
+		<div class="text"><b>Results</b><br> # Semantic graph: [flew/VBD <br># &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nsubj:He/PRP <br># &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;advmod:[here/RB&nbsp;cc:and/CC&nbsp;conj:there/RB] <br># &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prep:[in/IN&nbsp;pobj:[search/NN&nbsp;det:the/DT&nbsp;prep:[of/IN&nbsp;pobj:water/NN]]]]<br><br> #   Detected 1 clause(s). <br>#   - SVA (V: flew@2, S: He@1, A!: here@3, A?: in@6)<br><br>	"He"	"flew"	"here in the search of water"<br>	"He"	"flew"	"there in the search of water"<br>	"He"	"flew"	"here"<br>	"He"	"flew"	"there"<br></div>
+	</div>
+
+<iframe src="./ClausIE_files/widget.html" style="overflow: hidden; position: fixed; height: 400px; width: 375px; bottom: 7px; right: 11px; background: none; border: none; z-index: 2147483646; user-select: none; display: none;"></iframe></body></html>

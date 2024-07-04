@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sigml>
+<hns_sign gloss="he">
+<hamnosys_manual>
+<hamfinger2 />
+<hamthumbacrossmod />
+<hamextfingero />
+<hampalml />
+<hamshoulders />
+<hamlrat />
+<hammoveo />
+<hamslow />
+</hamnosys_manual>
+</hns_sign>
+<hns_sign gloss="school">
+<hamnosys_manual>
+<hamflathand />
+<hamthumboutmod />
+<hamextfingerul />
+<hampalml />
+<hamunderchin />
+<hamclose />
+<hammoveur />
+<hamsmallmod />
+<hamrepeatfromstart />
+</hamnosys_manual>
+</hns_sign>
+<hns_sign gloss="go">
+<hamnosys_manual>
+<hamflathand />
+<hamthumboutmod />
+<hambetween />
+<hamflathand />
+<hamextfingerol />
+<hambetween />
+<hamextfingeruo />
+<hampalml />
+<hamshoulders />
+<hambetween />
+<hamshouldertop />
+<hamlrat />
+<hamclose />
+<hammoveol />
+<hamarcu />
+<hamsmallmod />
+</hamnosys_manual>
+</hns_sign>
+<hns_sign gloss="now">
+<hamnosys_manual>
+<hamsymmlr />
+<hamflathand />
+<hamthumboutmod />
+<hambetween />
+<hamfinger2345 />
+<hamthumboutmod />
+<hamfingerbendmod />
+<hamextfingero />
+<hambetween />
+<hamextfingerol />
+<hampalmu />
+<hambetween />
+<hampalmul />
+<hamchest />
+<hammoved />
+<hamhalt />
+</hamnosys_manual>
+</hns_sign>
+</sigml>
+
+
